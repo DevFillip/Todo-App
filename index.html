@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do app</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="logo-to-do">
+        <h1>To-do-App</h1>
+    </div><!--logo-to-do-->
+
+    <div class="container-tarefas">
+
+        <div class="header-tarefas">
+            <h3 maxlength="20" ondblclick="">Lista de tarefas</h3>
+            <p class="tarefas-a-cumprir">Nenhuma tarefa a cumprir</p>
+        </div><!--header-tarefas-->
+
+        <div class="tarefas-adicionadas"></div>
+
+        <div class="adicionar-tarefas">
+            <input type="text" value="" placeholder="Coloque sua nova tarefa" id="nova-tarefa"> 
+            <input type="submit" value="+" id="btn">
+        </div><!--adicionar-tarefas-->
+
+        <div class="limpar-tarefas">
+            Limpar itens
+        </div><!--limpar-tarefas-->
+
+    </div><!--container-tarefas-->
+
+    <script src="script.js"></script>
+</body>
+</html>
