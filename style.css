@@ -194,7 +194,7 @@ input[type="checkbox"]:checked + label::after{
 }
 
 .limpar-tarefas{
-    width: 109px;
+    text-align: center;
     font-size: 20px;
     color: rgb(255, 23, 23);
     margin: 0 auto;
